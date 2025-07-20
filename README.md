@@ -83,7 +83,7 @@ university-finder/
 
 Contributions are welcome!
 
-> Feel free to fork the repository and submit a pull request with your improvements — whether it's UI tweaks, code optimizations, bug fixes, or new features.
+Feel free to fork the repository and submit a pull request with your improvements — whether it's UI tweaks, code optimizations, bug fixes, or new features.
 
 ---
 
