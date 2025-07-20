@@ -13,6 +13,7 @@ A beautiful and modern university search app built using **pure HTML, CSS, and J
 - [How It Works](#how-it-works)
 - [Installation & Usage](#installation-&-usage)
 - [Contributions](#contributions)
+- [License](#license)
 
 ---
 
