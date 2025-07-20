@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>University Finder</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+	</head>
+	<body>
+		<div class="main-wrapper">
+			<div class="search-panel full-width">
+				<h2>🌐 University Finder</h2>
+				<p>Search universities by country name</p>
+				<form>
+					<input
+						type="text"
+						id="countryInput"
+						placeholder="e.g. Canada, India, Germany"
+					/>
+					<button onclick="loadData(event)">Search</button>
+					<br /><br />
+					<span>
+						Made with ❤️ by
+						<a
+							href="https://www.linkedin.com/in/vanshmistry"
+							style="color: orangered; text-decoration: none"
+							>Vansh Mistry</a
+						>
+					</span>
+				</form>
+			</div>
+
+			<div class="results-panel hidden">
+				<h1 class="country-heading">Country Name</h1>
+				<ol class="university-list"></ol>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
