@@ -1,6 +1,10 @@
 # 🌐 University Finder
 
-A beautiful and modern university search app built using **pure HTML, CSS, and JavaScript**. It allows users to search for universities across the world by country name, leveraging the [Hipolabs Universities API](https://universities.hipolabs.com/).
+A beautiful and modern university search app built using **pure HTML, CSS, and JavaScript**. It allows users to search for universities across the world by country name, leveraging the [Hipolabs Universities API](https://github.com/Hipo/university-domains-list-api).
+
+### ⚠️ Note on API Usage
+
+This project uses the [Hipolabs Universities API](https://github.com/Hipo/university-domains-list-api), which only supports HTTP. To avoid Mixed Content errors in browsers, I used [corsproxy.io](https://corsproxy.io/) as a public HTTPS proxy. This is a temporary workaround suitable for demo/portfolio project use only, and not recommended for production applications.
 
 ---
 
@@ -28,7 +32,7 @@ A beautiful and modern university search app built using **pure HTML, CSS, and J
 - 🔎 Search universities by country
 - 🌐 Displays name, website, and state/province
 - 💡 Responsive layout for all screen sizes
-- 🎨 Modern glassmorphism UI with transitions
+- 🎨 Modern UI with transitions
 - 📱 Mobile-friendly and touch-optimized
 - 🧭 Auto hides result panel when empty
 - 💫 Smooth animations for better UX
@@ -41,7 +45,7 @@ A beautiful and modern university search app built using **pure HTML, CSS, and J
 - **CSS3**
 - **Vanilla JavaScript (ES6)**
 - **Axios** for API requests
-- **[Hipolabs Universities API](https://universities.hipolabs.com/)**
+- **[Hipolabs Universities API](https://github.com/Hipo/university-domains-list-api)**
 
 ---
 
