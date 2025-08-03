@@ -1,4 +1,5 @@
-let url = "http://universities.hipolabs.com/search?country=";
+let url =
+	"https://corsproxy.io/http://universities.hipolabs.com/search?country=";
 let setCountryName = document.querySelector(".country-heading");
 let countryInput = document.querySelector("#countryInput");
 let ol = document.querySelector(".university-list");
