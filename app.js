@@ -1,4 +1,4 @@
-let url = "https://universities.hipolabs.com/search?name=";
+let url = "http://universities.hipolabs.com/search?country=";
 let setCountryName = document.querySelector(".country-heading");
 let countryInput = document.querySelector("#countryInput");
 let ol = document.querySelector(".university-list");
